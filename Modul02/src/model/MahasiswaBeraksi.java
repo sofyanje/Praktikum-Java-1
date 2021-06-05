@@ -14,11 +14,14 @@ public class MahasiswaBeraksi {
         mahasiswa.nama = "Sofyan Assauri";
         mahasiswa.tanggalLahir = simpleDateFormat.parse("19-11-2000");
 
+        /*
         System.out.println("Nama \t\t\t : " + mahasiswa.nama);
         System.out.println("NPM \t\t\t : " + mahasiswa.npm);
         System.out.println("Tanggal Lahir \t : " + simpleDateFormat.format(mahasiswa.tanggalLahir));
+        */
 
         mahasiswa.tampilkanAtribut();
+        System.out.println("Usiaku \t\t\t : " + mahasiswa.hitungUsia() + " Tahun");
         mahasiswa.menyapa();
 
         System.out.println("");
@@ -28,8 +31,14 @@ public class MahasiswaBeraksi {
         mahasiswa2.nama = "Mark Zuckerberg";
         mahasiswa2.tanggalLahir = simpleDateFormat.parse("14-05-1984");
 
+        mahasiswa2.tampilkanAtribut();
+        System.out.println("Usiaku \t\t\t : " + mahasiswa2.hitungUsia() + " Tahun");
+        mahasiswa2.menyapa();
+
+        /*
         System.out.println("Nama \t\t\t : " + mahasiswa2.nama);
         System.out.println("NPM \t\t\t : " + mahasiswa2.npm);
         System.out.println("Tanggal Lahir \t : " + simpleDateFormat.format(mahasiswa.tanggalLahir));
+        */
     }
 }
