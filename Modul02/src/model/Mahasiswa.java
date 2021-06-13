@@ -43,7 +43,6 @@ public class Mahasiswa {
         System.out.println("NPM \t\t\t : " + this.npm);
         System.out.println("Tanggal Lahir \t : " + simpleDateFormat.format(this.tanggalLahir));
     }
-
     void menyapa() {
         System.out.println("Hai, nama aku \t\t: " +this.nama);
         System.out.println("==============================================");
